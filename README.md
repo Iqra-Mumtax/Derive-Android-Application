@@ -1,0 +1,2 @@
+# Derive-Android-Application
+We like to keep a photographic record of our experiences such as outings with friends, unforgettable family excursions and world tours. That’s where the Derive application comes in. It acts as a diary where one can record day-to-day activities during outings by capturing photos and jotting down their feelings about the sight. The photos will be geo-tagged using the Google Maps API.
