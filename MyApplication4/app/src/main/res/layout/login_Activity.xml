@@ -26,18 +26,18 @@
 
         <EditText
             android:id="@+id/etpassward"
-            style="@style/editText_style"
+            style="@style/editText_style1"
             android:hint="Username"
             android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/email"
-            style="@style/editText_style"
+            style="@style/editText_style2"
             android:hint="Password"
             android:inputType="textEmailAddress" />
         <Button
             android:id="@+id/button"
-            style="@style/button_style"
+            style="@style/button_style1"
 
             android:text="Log In" />
 
