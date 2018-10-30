@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_bg"
+        tools:context=".dummy.login">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="308dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logo" />
+
+
+            <EditText
+                android:id="@+id/etpassward"
+                style="@style/editText_style1"
+                android:hint="Username"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/editText_style2"
+                android:hint="Password"
+                android:inputType="textEmailAddress" />
+            <Button
+                android:id="@+id/button"
+                style="@style/button_style1"
+
+                android:text="Log In" />
+
+            <TextView
+                android:id="@+id/tv"
+                style="@style/textView_style"
+                android:text="Forgot Passward?" />
+        </LinearLayout>
+    </RelativeLayout>
