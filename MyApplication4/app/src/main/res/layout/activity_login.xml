@@ -24,25 +24,27 @@
 
 
             <EditText
-                android:id="@+id/etpassward"
+                android:id="@+id/etpassword"
                 style="@style/editText_style1"
-                android:hint="Username"
-                android:inputType="textPassword" />
+                android:hint="@string/username"
+                android:inputType="textPassword"
+                />
 
             <EditText
                 android:id="@+id/email"
                 style="@style/editText_style2"
-                android:hint="Password"
-                android:inputType="textEmailAddress" />
-            <Button
-                android:id="@+id/button"
-                style="@style/button_style1"
+                android:hint="@string/password"
+                android:inputType="textEmailAddress"
+                />
 
-                android:text="Log In" />
+            <Button
+                android:id="@+id/buttonLogin"
+                style="@style/button_style1"
+                android:text="@string/log_in" />
 
             <TextView
                 android:id="@+id/tv"
                 style="@style/textView_style"
-                android:text="Forgot Passward?" />
+                android:text="@string/forgot_password" />
         </LinearLayout>
     </RelativeLayout>

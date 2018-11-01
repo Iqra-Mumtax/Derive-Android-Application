@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 
+import com.example.lenovo.myapplication.dummy.login;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -25,6 +26,24 @@ public class signUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.signup);
+    }
+
+    public void onFacebookClick(View v){
+        finish();
+        Intent intent=new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void onGoogleClick(View v){
+        finish();
+        Intent intent=new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void onRegisterClick(View v){
+        finish();
+        Intent intent=new Intent(this, login.class);
+        startActivity(intent);
     }
 
 }

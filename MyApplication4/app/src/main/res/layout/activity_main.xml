@@ -24,25 +24,25 @@
             android:id="@+id/home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="HOME" />
+            android:text="@string/home" />
 
         <android.support.design.widget.TabItem
             android:id="@+id/incity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="In city" />
+            android:text="@string/in_city" />
 
         <android.support.design.widget.TabItem
             android:id="@+id/outcity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="OUT CITY" />
+            android:text="@string/out_city" />
 
         <android.support.design.widget.TabItem
             android:id="@+id/other"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="OTHER" />
+            android:text="@string/other" />
 
     </android.support.design.widget.TabLayout>
     <android.support.v4.view.ViewPager

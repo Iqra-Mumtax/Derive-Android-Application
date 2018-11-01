@@ -22,16 +22,14 @@
             android:layout_height="308dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/logo" />
-        <com.facebook.login.widget.LoginButton
-            android:id="@+id/login_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:visibility="gone" />
+
+
+
         <Button
             android:id="@+id/fb"
             style="@style/facebookbutton_style"
-            android:onClick="onClick"
-            android:text="FaceBook Login"
+            android:onClick="onFacebookClick"
+            android:text="@string/facebook_login"
             android:textColor="#ffffff"
             android:textStyle="bold"
             tools:ignore="OnClick" />
@@ -39,8 +37,8 @@
         <Button
             android:id="@+id/google"
             style="@style/googlebutton_style"
-            android:onClick="onClick"
-            android:text="Google+ Login"
+            android:onClick="onGoogleClick"
+            android:text="@string/google_login"
             android:textColor="#ffffff"
             android:textStyle="bold"
             tools:ignore="OnClick" />
@@ -48,9 +46,11 @@
         <Button
             android:id="@+id/register"
             style="@style/button_style2"
+            android:onClick="onRegisterClick"
 
-            android:text="Register"
-            android:textStyle="bold"/>
+            android:text="@string/register"
+            android:textStyle="bold"
+            tools:ignore="OnClick"/>
 
     </LinearLayout>
 </RelativeLayout>

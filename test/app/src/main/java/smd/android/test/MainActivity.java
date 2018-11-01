@@ -11,7 +11,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public abstract class MainActivity extends AppCompatActivity {
+public abstract class test extends AppCompatActivity {
 
 
     TextView mConditionTextView;
