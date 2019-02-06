@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="choose_sport_s">Choose sport(s)</string>
+    <string name="football">FootBall</string>
+    <string name="cricket">Cricket</string>
+    <string name="tennis">Tennis</string>
+</resources>

@@ -25,7 +25,7 @@ public class signUp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.signup);
+        setContentView(R.layout.signUp);
     }
 
     public void onFacebookClick(View v){
@@ -33,6 +33,8 @@ public class signUp extends AppCompatActivity {
         Intent intent=new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+    
 
     public void onGoogleClick(View v){
         finish();
